@@ -1,12 +1,12 @@
 # WebDesignCS260
 ## Who is the Spy
-###Elevator Pitch
+### Elevator Pitch
 I'm developing a lightweight web-based social game called Who's the Spy.
 Players simply open the webpage—no downloads required—to instantly join games with friends or strangers.
 The rules are straightforward: the majority receive identical words, while a minority of spies receive slightly different ones. Each round, players take turns describing their word, attempting to prove they aren't the spy while simultaneously hunting down the hidden adversary.
 The fun lies in communication and deduction: you must conceal your own word while cleverly discerning who is lying.
 
-###Visual Design
+### Visual Design
 
 ### Key features
 
