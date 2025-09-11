@@ -7,8 +7,8 @@ The rules are straightforward: the majority receive identical words, while a min
 The fun lies in communication and deduction: you must conceal your own word while cleverly discerning who is lying.
 
 ### Visual Design
-![Mock](WebDraft1.jpg)
-![Mock](WebDraft2.jpg)
+![Mock](WebDraft1.png)
+![Mock](WebDraft2.png)
 ### Key features
 
 - Secure login over HTTPS
