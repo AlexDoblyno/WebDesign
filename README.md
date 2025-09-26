@@ -66,18 +66,18 @@ I am going to use the required technologies in the following ways.
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Server deployed and accessible with custom domain name** - [My server link](https://startup.whoisspy.click/).
+- [x] **Server deployed and accessible with custom domain name** - [My server link](https://startup.whoisspy.click/).
 
 ## 🚀 HTML deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **HTML pages** - Four different pages. One for each view. `index.html` (Login), `play.html`, `scores.html`, and `about.html`.
-- [ ] **Proper HTML element usage** - I spent a lot of time learning about elements. I used header, footer, main, nav, img, a, fieldset, input, button, form, and many more.
-- [ ] **Links** - Links between views.
-- [ ] **Text** - About page has text.
-- [ ] **3rd party API placeholder** - About page has a place to display an inspirational quote.
-- [x] **Images** - Image is displayed on the about page.  NOTE: I do not know if this is a force requirement. If it is I will return and add the image.
-- [ ] **Login placeholder** - Placeholder for auth on the login page.
-- [x] **DB data placeholder** - High scores displayed on scores page. NOTE: My game doesn't require a placeholder
-- [x] **WebSocket placeholder** - The play page has a text area that will show what other user notifications.
+- [x] **HTML pages** - Four different pages. One for each view. `index.html` (Login), `play.html`, `scores.html`, and `about.html`.
+- [x] **Proper HTML element usage** - I spent a lot of time learning about elements. I used header, footer, main, nav, img, a, fieldset, input, button, form, and many more.
+- [x] **Links** - Links between views.
+- [x] **Text** - About page has text.
+- [x] **3rd party API placeholder** - About page has a place to display an inspirational quote.
+- [ ] **Images** - Image is displayed on the about page.  NOTE: I do not know if this is a force requirement. If it is I will return and add the image.
+- [x] **Login placeholder** - Placeholder for auth on the login page.
+- [ ] **DB data placeholder** - High scores displayed on scores page. NOTE: My game doesn't require a placeholder
+- [ ] **WebSocket placeholder** - The play page has a text area that will show what other user notifications.
