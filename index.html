@@ -1,55 +1,66 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <!-- Tell browsers not to scale the viewport automatically -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Who is Spy</title>
+    <title>Simon CSS</title>
     <link rel="icon" href="favicon.ico" />
-  </head>
-  <body>
-    <!-- Use header, main, and footer elements to give semantic structure -->
-    <header>
-      <h1>Who is Spy?<sup></sup></h1>
 
-      <!-- Navigation elements -->
-      <nav>
-        <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
-        <menu>
-            <li><a href="index.html">Home</a></li> <!-- index.html -->
-            <li><a href="play.html">Play</a></li> <!--play.html-->
-            <li><a href="register.html">Register</a></li> <!--scores.html -->
-            <li><a href="about.html">About</a></li>
+    <link rel="stylesheet" href="main.css" />
 
-
+    <!-- Include bootstrap CSS framework -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+            crossorigin="anonymous"
+    />
+</head>
+<body class="bg-dark text-light">
+<header class="container-fluid">
+    <nav class="navbar fixed-top navbar-dark">
+        <a class="navbar-brand" href="#">Who is Spy<sup>&reg;</sup></a>
+        <menu class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="play.html">Play</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="register.html">Register</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
         </menu>
-      </nav>
+    </nav>
+</header>
 
-      <!-- Since we don't have the ability to style we use old style HTML to give some visual formatting -->
-      <hr />
-    </header>
+<main class="container-fluid bg-secondary text-center">
+    <div>
+        <h1>Welcome to Who Is Spy</h1>
+        <form method="get" action="play.html">
+            <div class="input-group mb-3">
+                <span class="input-group-text">@</span>
+                <input class="form-control" type="text" placeholder="your@email.com" />
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">🔒</span>
+                <input class="form-control" type="password" placeholder="password" />
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+            <button type="submit" class="btn btn-secondary">Create</button>
+        </form>
+    </div>
+</main>
 
-    <main>
-      <h1>Welcome to Who is Spy</h1>
-      <form method="get" action="play.html">
-        <div>
-          <span>@</span>
-          <input type="text" placeholder="your@email.com" />
-        </div>
-        <div>
-          <span>🔒</span>
-          <input type="password" placeholder="password" />
-        </div>
-        <button type="submit">Login</button>
-        <button type="submit">Create</button>
-      </form>
-    </main>
-
-    <footer>
-      <hr />
-      <span class="text-reset">Author Name(s)</span>
+<footer class="bg-dark text-white-50">
+    <div class="container-fluid">
+        <span class="text-reset">Author Name(s)</span>
       <br />
       <a href=https://github.com/AlexDoblyno/WebDesign.git">GitHub</a>
+    </div>
     </footer>
-  </body>
+   </body>
 </html>
