@@ -4,29 +4,37 @@
     <meta charset="UTF-8" />
     <!-- Tell browsers not to scale the viewport automatically -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Who is Spy</title>
+      <title>Who is Spy</title>
 
-  </head>
-  <body>
-    <!-- Use header, main, and footer elements to give semantic structure -->
-    <header>
-      <h1>Who is Spy</h1>
 
-      <!-- Navigation elements -->
-      <nav>
-        <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
-        <menu>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="play.html">Play</a></li>
-            <li><a href="register.html">Register</a></li> <!--scores.html -->
-            <li><a href="about.html">About</a></li>
-
-        </menu>
+      <link rel="stylesheet" href="main.css" />
+      <link rel="stylesheet" href="play.css" />
+      <link
+              href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+              rel="stylesheet"
+              integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+              crossorigin="anonymous"
+      />
+  <body class="bg-dark text-light">
+  <header class="container-fluid">
+      <nav class="navbar fixed-top navbar-dark">
+          <a class="navbar-brand" href="#">Simon<sup>&reg;</sup></a>
+          <menu class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" href="play.html">Play</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="scores.html">Scores</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+              </li>
+          </menu>
       </nav>
-
-      <!-- Since we don't have the ability to style we use old style HTML to give some visual formatting -->
-      <hr />
-    </header>
+  </header>
 
     <main>
       <div class="players">
