@@ -85,9 +85,9 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 🚀 CSS deliverable
 For this deliverable I did the following. I checked the box [x] and added a description for things I completed.
 
- Header, footer, and main content body - I used a common CSS file to style these main.css. The views specific things are in about.css and play.css.
- Navigation elements - Bootstrap NavBar. What a time saver.
- Responsive to window resizing - Bootstrap and `display:flex' did most the work here. I'm really happy with the game rendering.
- Application elements - I used a lot of display:flex to get things to align correctly.
- Application text content - Set all my text to Helvetica and it looks nice and clean.
- Application images - I left the about image as is.
+- [x] Header, footer, and main content body - I used a common CSS file to style these main.css. The views specific things are in about.css and play.css.
+- [x] Navigation elements - Bootstrap NavBar. What a time saver.
+- [x]  Responsive to window resizing - Bootstrap and `display:flex' did most the work here. 
+- [x]  Application elements - I used a lot of display:flex to get things to align correctly.
+- [x]  Application text content - Set all my text to Helvetica and it looks nice and clean.
+- [x]  Application images - I left the about image as is.
