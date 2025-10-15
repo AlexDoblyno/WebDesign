@@ -1,4 +1,4 @@
-# Simon
+# Who Is Spy
 
 [My Notes](notes.md)
 
@@ -77,7 +77,17 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] **Links** - Links between views.
 - [x] **Text** - About page has text.
 - [x] **3rd party API placeholder** - About page has a place to display an inspirational quote.
-- [ ] **Images** - Image is displayed on the about page.  NOTE: I do not know if this is a force requirement. If it is I will return and add the image.
+- [x] **Images** - Image is displayed on the about page.  NOTE: I do not know if this is a force requirement. If it is I will return and add the image.
 - [x] **Login placeholder** - Placeholder for auth on the login page.
-- [ ] **DB data placeholder** - High scores displayed on scores page. NOTE: My game doesn't require a placeholder
-- [ ] **WebSocket placeholder** - The play page has a text area that will show what other user notifications.
+- [x] **DB data placeholder** - High scores displayed on scores page. NOTE: My game doesn't require a placeholder
+- [x] **WebSocket placeholder** - The play page has a text area that will show what other user notifications.
+
+🚀 CSS deliverable
+For this deliverable I did the following. I checked the box [x] and added a description for things I completed.
+
+- [x] Header, footer, and main content body - I used a common CSS file to style these main.css. The views specific things are in about.css and play.css.
+- [x] Navigation elements - Bootstrap NavBar. What a time saver.
+- [x]  Responsive to window resizing - Bootstrap and `display:flex' did most the work here. 
+- [x]  Application elements - I used a lot of display:flex to get things to align correctly.
+- [x]  Application text content - Set all my text to Helvetica and it looks nice and clean.
+- [x]  Application images - I left the about image as is.
