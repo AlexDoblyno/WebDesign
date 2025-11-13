@@ -1,12 +1,12 @@
 import React from 'react';
 
 import { Button } from 'react-bootstrap';
-import { SimonButton } from './simonButton';
+import { PlaceHolderButton } from './PlaceHolderButton';
 import { delay } from './delay';
 import { GameEvent, GameNotifier } from './gameNotifier';
-import './simonGame.css';
+import './PlaceHolderGame.css';
 
-export function SimonGame(props) {
+export function PlaceHolderGame(props) {
   const userName = props.userName;
   const buttons = new Map();
   const mistakeSound = new Audio(`/error.mp3`);
@@ -124,7 +124,7 @@ export function SimonGame(props) {
   buttons.set('button-bottom-right', { position: 'button-bottom-right', ref: React.useRef() });
 
   const buttonArray = Array.from(buttons, ([key, value]) => {
-    return <SimonButton key={key} ref={value.ref} position={key} onPressed={() => onPressed(key)}></SimonButton>;
+    return <PlaceHolderButton key={key} ref={value.ref} position={key} onPressed={() => onPressed(key)}></PlaceHolderButton>;
   });
 
   return (

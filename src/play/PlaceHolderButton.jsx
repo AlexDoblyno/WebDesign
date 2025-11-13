@@ -1,7 +1,7 @@
 import React from 'react';
 import { delay } from './delay';
 
-export const SimonButton = React.forwardRef(({ position, onPressed }, ref) => {
+export const PlaceHolderButton = React.forwardRef(({ position, onPressed }, ref) => {
   const [lightOn, setLightOn] = React.useState(true);
   const sound = new Audio(`/${position}.mp3`);
 
